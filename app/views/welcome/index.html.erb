@@ -3,16 +3,15 @@
 
 <%= @homeland %>
 <ul>
-	<% @countries.each do |country| %>
-	<li> <%= @country %> </li>
-	<% end %>
+	<% @countries.each do | country |%>
+		<li><%= country %></li>
+	<% end %>	
 </ul>
+
+
+
 <%= image_tag 'Japan.jpg', alt: 'Japan',
-id: 'Japan', 
-class: 'country',
-height: 300,
-width: 400 %>
-
-
-
-
+						   id: 'Japan', 
+						   class: 'country',
+						   height: 300,
+						   width: 400 %>
